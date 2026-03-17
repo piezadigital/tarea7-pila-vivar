@@ -39,4 +39,8 @@ public class BitacoraStack {
         }
         return pila[tope--];
     }
+
+    public int tamano(){
+        return tope + 1;
+    }
 }
