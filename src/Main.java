@@ -28,3 +28,9 @@ public class Main {
         System.out.println("Evento en la cima de la pila: " + pila.consultarUltimo());
     }
 }
+
+/* COMENTARIO:
+¿Por qué una Pila es la estructura correcta para este sistema de bitácora? ¿Qué pasaría si usaras una lista normal accediendo por índice?
+
+Respuesta: Creo que es indispensable tener el control sobre los datos que manejamos, y utilizando esta estructura de control podemos establecer metodos que nos ayuden a controlar cada proceso
+en el uso de esos datos, como analizarlos, corregirlos, tomar decisiones exactas, etc. Lo más importante es que esta estructura de control se ejecuta de forma rápida, escalable y controlable. */
