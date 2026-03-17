@@ -6,12 +6,12 @@ public class Main {
         System.out.println("Generando eventos...");
 
         BitacoraStack pila = new BitacoraStack(6);
-        /* pila.registrar("Motor de estribor encendido"); */
-        /* pila.registrar("Velocidad warp alcanzada");
+        pila.registrar("Motor de estribor encendido");
+        pila.registrar("Velocidad warp alcanzada");
         pila.registrar("Señal de comunicación estable");
-        pila.registrar("Anomalía detectada en sector 7"); */
-        /* pila.registrar("Escudos al 40%");
-        pila.registrar("ERROR CRÍTICO: fallo en sistema de navegación"); */
+        pila.registrar("Anomalía detectada en sector 7");
+        pila.registrar("Escudos al 40%");
+        pila.registrar("ERROR CRÍTICO: fallo en sistema de navegación");
 
         if(pila.tamano() == pila.totalEventos()){
             if(pila.consultarUltimo().equals("ERROR")){}
